@@ -42,7 +42,7 @@ function setup() {
 
   }
 
-  function gradientDescend() {
+  function gradientDescent() {
     var learningRate = 0.9;
     for (var i = 0;i < data.length;i++) {
       var x = data[i].x;
